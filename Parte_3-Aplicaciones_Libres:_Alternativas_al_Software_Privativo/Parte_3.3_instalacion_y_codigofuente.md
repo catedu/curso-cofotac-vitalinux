@@ -12,6 +12,8 @@ Una vez que sabemos qué aplicación queremos usar/probar, vamos a instalarla. P
 4. Manualmente mediante un paquete deb. Forma gráfica
 5. Línea de comandos. Instalación de aplicaciones de un repo o directamente descagando el deb
 
+En la mayoría de los casos, deberemos hacer uso de una cuenta con permisos de administración para poder instalar/desinstalar software. En el caso de Vitalinux por ejemplo, la cuenta de profesor y dga tienen por defecto permisos de administración.
+
 ### Centro de Software
 
 **Vitalinux** es una distribución basada en la versión ligera de Ubuntu, la cual dispone de su propio '''Centro de Software''' que permite al usuario instalar y desinstalar aplicaciones de una forma muy gráfica y convencional, al estilo que estamos acostumbrados de un Store actual del móvil, pudiendo filtrar la búsqueda de una manera categorizada: '''Educación, Ofimática, Internet''', etc.
@@ -68,9 +70,26 @@ Veamos un ejemplo de cada:
 
 #### PAQUETE DEB
 
-1. Buscamos el software a instalar. Encontramos el fichero a descargar. El nombre del archivo (nootka_1.7.3-beta3_amd64.deb) nos está indicando la versión (1.7.3) y en éste caso la arquitectura (64 bits). Deberemos descargar éste si nuestra arquitectura del sistema operativo es 64 bits (lo mas común a día de hoy) o buscar el de 32 si es de 32
+![Descarga Software](../img/parte3/downloaddeb.png "Descargando Software")
+
+1. Buscamos el software a instalar. Encontramos el fichero a descargar. El nombre del archivo (nootka_1.7.3-beta3_amd64.deb) nos está indicando la versión (1.7.3) y en éste caso la arquitectura (64 bits). Deberemos descargar éste si nuestra arquitectura del sistema operativo es 64 bits (lo mas común a día de hoy) o buscar el de 32 (en éste caso no hay posibilidad). También podemos encontrar el final con un all en lugar de amd64, lo que indica que sirve para cualquier arquitectura
+
+***Importante: Observar que el software tiene versiones para múltiples arquitecturas...como debe ser :-)***
+
+![Instalando Software](../img/parte3/installdeb.png "Instalando Software")
+
+2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que viene firmado y estable a la versión de distribución que tenemos (por ejemplo, las posibles librerías que necesite estarán en la versión esperada).
+
 
 #### FICHERO APPIMAGE**
+
+En el caso de ficheros AppImage, procederemos a descargarlo igualmente. Ésta forma de distribución, no requiere de instalación para ejecutarse, pero:
+
+* Es muy cómodo ya que no requiere instalación, dependencias de librerías con versiones que no tenemos
+* No requiere permisos privilegiados para poder usarlo (dependiendo de las acciones que quiera realizar). Los paquetes deb requieren permisos de superusuario para ser instalados.
+* No se mantedrá actualizado
+* Es posible que le cueste arrancar algo más, ya que contiene todas las librerías y programas adicionales que necesite
+* Deberemos añadir el lanzador que queramos para poder tenerlo accesible de forma cómoda (menú, escritorio, lanzador de aplicaciones...)
 
 
 Hay otras tecnologías de distribuciónd e softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
