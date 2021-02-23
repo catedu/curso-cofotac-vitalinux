@@ -68,7 +68,16 @@ Veamos un ejemplo de cada:
 
 #### PAQUETE DEB
 
-1. Buscamos el software a instalar. Encontramos el fichero a descargar. El nombre del archivo (nootka_1.7.3-beta3_amd64.deb) nos está indicando la versión (1.7.3) y en éste caso la arquitectura (64 bits). Deberemos descargar éste si nuestra arquitectura del sistema operativo es 64 bits (lo mas común a día de hoy) o buscar el de 32 si es de 32
+![Descarga Software](../img/parte3/downloaddeb.png "Descargando Software")
+
+1. Buscamos el software a instalar. Encontramos el fichero a descargar. El nombre del archivo (nootka_1.7.3-beta3_amd64.deb) nos está indicando la versión (1.7.3) y en éste caso la arquitectura (64 bits). Deberemos descargar éste si nuestra arquitectura del sistema operativo es 64 bits (lo mas común a día de hoy) o buscar el de 32 (en éste caso no hay posibilidad). También podemos encontrar el final con un all en lugar de amd64, lo que indica que sirve para cualquier arquitectura
+
+***Importante: Observar que el software tiene versiones para múltiples arquitecturas...como debe ser :-)***
+
+![Instalando Software](../img/parte3/installdeb.png "Instalando Software")
+
+2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que se mantiene actualizado (y sobre todo, que viene firmado)
+
 
 #### FICHERO APPIMAGE**
 
