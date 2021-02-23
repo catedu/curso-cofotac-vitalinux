@@ -1,3 +1,4 @@
+# Aplicaciones libres
 En Vitalinux podemos disponer de todas las aplicaciones y utilidades que encontraríamos en cualquier otro Ubuntu, y muchas otras aplicaciones que no están disponibles por defecto.
 
 El ecosistema de aplicaciones disponibles puede llegar a ser abrumador. Aquí podemos ver varios ejemplos:

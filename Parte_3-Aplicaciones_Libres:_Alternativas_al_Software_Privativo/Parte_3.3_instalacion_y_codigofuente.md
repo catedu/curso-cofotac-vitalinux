@@ -62,13 +62,14 @@ Como ya se ha dicho en varias ocasiones, una caracterísitica que vamos a encont
 De forma manual, dependerá de como nos faciliten el software:
 
 * O bien es un paquete que debemos "instalar" antes de poder usar. Como lo que hemos visto hasta ahora, pero de forma manual. Serán archivos **.deb**
+  * En éste caso po 
 * Es una aplicación que tiene todo los binarios y librerías ya compilados y empaquetados, de forma que se puede lanzar directamente. En éste caso, solo debemos marcarlos para ejectuar y lanzarlo. Es lo que se conoce comunmente como software portable. El más común actualmente es en formato **AppImage**
 
 ***Importante: Si optamos por la fórmula manual, debemos ser cuidadosos y saber de dónde estamos descagando el software para garantizar la seguridad e integridad de nuestro equipo y sobre todo, respetar las licencias de uso para respetar la legalidad del uso de la misma***
 
 Veamos un ejemplo de cada:
 
-#### PAQUETE DEB
+#### Paquetes deb
 
 ![Descarga Software](../img/parte3/downloaddeb.png "Descargando Software")
 
@@ -81,22 +82,32 @@ Veamos un ejemplo de cada:
 2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que viene firmado y estable a la versión de distribución que tenemos (por ejemplo, las posibles librerías que necesite estarán en la versión esperada).
 
 
-#### FICHERO APPIMAGE**
+#### Ficheros AppImage
 
-En el caso de ficheros AppImage, procederemos a descargarlo igualmente. Ésta forma de distribución, no requiere de instalación para ejecutarse, pero:
+En el caso de ficheros AppImage, procederemos a descargarlo igualmente. En éste ejemplo, el nombre sería nootka-1.7.3-beta3-b3917-x86_64.AppImage, indicando que es para una arquitectura de 64 bits
 
-* Es muy cómodo ya que no requiere instalación, dependencias de librerías con versiones que no tenemos
-* No requiere permisos privilegiados para poder usarlo (dependiendo de las acciones que quiera realizar). Los paquetes deb requieren permisos de superusuario para ser instalados.
-* No se mantedrá actualizado
+Ésta forma de distribución, no requiere de ninunga instalación para ejecutarse, pero:
+
+* Es muy **cómodo** ya que no requiere instalación, dependencias de librerías con versiones que no tenemos
+* No requiere permisos **privilegiados** para poder usarlo (dependiendo de las acciones que quiera realizar). Los paquetes deb requieren permisos de superusuario para ser instalados.
+* **No** se mantedrá **actualizado**
 * Es posible que le cueste arrancar algo más, ya que contiene todas las librerías y programas adicionales que necesite
-* Deberemos añadir el lanzador que queramos para poder tenerlo accesible de forma cómoda (menú, escritorio, lanzador de aplicaciones...)
+* Deberemos añadir el **lanzador** que queramos para poder tenerlo accesible de forma cómoda (menú, escritorio, lanzador de aplicaciones...)
 
+![Permisos de ejecución](../img/parte3/appimage_exe.png "Permisos de ejecución sobre appimage")
 
-Hay otras tecnologías de distribuciónd e softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
+Es importante que demos **permisos de ejecución** al fichero descargado para poder ejecutarlo. Una vez hecho ésto, podremos lanzarlo con doble-click sobre el archivo descargado
+
+![AppImage en vx](../img/parte3/appimage_vx.png "Lanzando AppImage en Vitalinux")
+
+***Importante: En vitalinux se ha faclitado su ejecución, de forma que no es necesario dar permisos de ejecución***
+
+Hay otras tecnologías de distribución de softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
 
 ### Línea de comandos
 
-Mediante la línea de comandos, podemos instalar software, desinstalar, comprobar, buscar...todo lo posible. Antes ya has visto algo con obs-studio. Éste es un ejemplo de acciones que puedes hacer
+Mediante la línea de comandos, podemos instalar software, desinstalar, comprobar, buscar...usando los repositorios que tenemos configurados.
+Antes ya hemos visto algo con obs-studio. Veamos un ejemplo mas completo de acciones que puedes hacer
 
 Actualizar la lista de paquetes disponibles en el repositorio
 
@@ -130,13 +141,25 @@ sudo apt-get remove --purge nombre-del-paquete
 
 ## Código fuente
 
-Github o Gitlab. Conocer de algunos proyectos/aplicaciones el código fuente, o por lo menos seguir su desarrollo nos va a permitir involucrarnos mas en dicho programa, conocer las novedades, poder reportar incidencias o incluso colaborar en su mejora. Dependiendo de la edad de los alumnos y su compromiso puede ser intereante hacer participes a los mismos. Por ejemplo...podríamos ayudar a traducir un software al castellano como han hecho algunos COFO's en sus centros...estaríamos fomentando las habilidades lingüisticas y tecnológicas.
+Para finalizar éste apartado, debemos destacar un aspecto importante del software libre: es **código abierto**, y por tanto podemos consultar su código fuente, modificarlo...
 
-También podemos descargar el código fuente usando el siguiente comando, siempre que tengamos en los repos marcado que queremos tener disponible además del software (deb) el código fuente (deb-src)
+***Importante: Recordar que OpenSource no siempre es software libre. Podemos tener programas de código abierto (opensource) con licencias restrictivas de uso.***
+
+Podemos descargar el código fuente usando el siguiente comando, siempre que **tengamos en los repos** marcado que queremos tener disponible además del software (deb) el código fuente (**deb-src**)
 
 ```bash
 apt source nombre_paquete
 ```
+
+Pero una forma más interensante para poder consultar el código es ir a las plataformas que se usan para la gestión de proyectos de software. La mayoría usa un sistema de control de versiones llamado git. Como servidores, hay muchos, pero los más usadas son:
+
+* [Launchpad](https://launchpad.net/). Por ejemplo del paquete [Cheese](https://code.launchpad.net/ubuntu/+source/cheese)
+* [Github](https://github.com/). Aquí encontramos por ejemplo el código del software comentado antes [obs-studio](https://github.com/obsproject/obs-studio)
+* [Gitlab](https://gitlab.com/inkscape/inkscape). Por ejemplo el código de [Inkspcape](https://gitlab.com/inkscape/inkscape)
+
+Está fuera del alcance de éste curso manejar éstas herramientas de control de código. Conocer de algunos proyectos/aplicaciones el código fuente, o por lo menos seguir su desarrollo nos va a permitir involucrarnos mas en dicho programa, estar atento a las novedades, poder reportar incidencias o incluso colaborar en su mejora. Dependiendo de la edad de los alumnos y su compromiso puede ser intereante incluso hacerles participes a los mismos. Por ejemplo...podríamos ayudar a traducir un software al castellano como han hecho algunos COFO's en sus centros...estaríamos fomentando las habilidades lingüisticas y tecnológicas.
+
+El **código fuente de los programas que se escriben para Vitalinux**, lo podemos encontrar en su [propio servidor de gitlab](https://gitlab.vitalinux.educa.aragon.es)
 
 Para terminar, puedes visualizar un vídeo sobre la [gestión del Software en Vitalinux](https://www.youtube.com/watch?v=8tBh8yz1FHY), donde se habla del uso de las diferentes herramientas descritas
 
