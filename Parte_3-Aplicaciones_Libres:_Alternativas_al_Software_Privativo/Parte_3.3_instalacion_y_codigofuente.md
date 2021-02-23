@@ -83,7 +83,12 @@ Veamos un ejemplo de cada:
 
 En el caso de ficheros AppImage, procederemos a descargarlo igualmente. Ésta forma de distribución, no requiere de instalación para ejecutarse, pero:
 
+* Es muy cómodo ya que no requiere instalación, dependencias de librerías con versiones que no tenemos
+* No requiere permisos privilegiados para poder usarlo (dependiendo de las acciones que quiera realizar). Los paquetes deb requieren permisos de superusuario para ser instalados.
 * No se mantedrá actualizado
+* Es posible que le cueste arrancar algo más, ya que contiene todas las librerías y programas adicionales que necesite
+* Deberemos añadir el lanzador que queramos para poder tenerlo accesible de forma cómoda (menú, escritorio, lanzador de aplicaciones...)
+
 
 Hay otras tecnologías de distribuciónd e softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
 
