@@ -1,8 +1,8 @@
 
 <div style="padding: 30px; text-align: center; width: 100%; border-radius: 5px; background-color: khaki;">
-<img src="img/generales/vx-vitalinux.png" alt="Vitalinux" width="200" style="margin-right: 20px;">
+<img src="img/generales/vx-vitalinux.png" alt="Vitalinux" width="150" style="margin-right: 20px;">
 <img src="img/generales/vx-logo-gnu-linux.png" alt="GNU" width="180" style="margin-right: 20px;">
-<img src="img/generales/vx-migasfree.png" alt="Vitalinux" width="200" style="margin-right: 20px;">
+<img src="img/generales/vx-migasfree.png" alt="Vitalinux" width="150" style="margin-right: 20px;">
 </div>
 
 # Introducción
