@@ -29,16 +29,3 @@ Terminamos ésta primera parte con una lectura sobre [porqué una institución e
 6. Calidad
 
 Veamos pues, qué aplicaciones y cómo tenerlas disponibles
-
-******* 
-
-2. Orígenes del software. Oficiales basados en distribuciones, desarrollador. Repositorios, ppas... Añadir repos y sobre todo migasfree
-
-3. Formas de distribución del software. Paquetes instalables (win o linux), paquetes autocontenidos: appimages, snap, flatpak, binario o incluso ficheros fuentes que pueden (o no) tener que ser compilados (hablamos también de lenguajes compilados o interpretados?)
-  Aplicaciones: synaptic, gestor de software
-  Migasfree
-  Colaboración en el desarollo de software. Sistemas de Gestión de versiones (github y gitlab), ppa
-
-4. Ejemplos con aplicaciones categorizadas
-   Nuestra categoría
-   Otras categorías: Max por ejemplo

@@ -7,9 +7,9 @@
 * [Presentación Contenidos Parte 1](Parte_1-Introduccion_Software_Libre/Parte_1.1.Presentacion_contenidos.md)
 * [¿Conocimiento Libre?](Parte_1-Introduccion_Software_Libre/Parte_1.2.0-Conocimiento_Libre.md)
   * [Ejemplo de Conocimiento Libre](Parte_1-Introduccion_Software_Libre/Parte_1.2.1-Ejemplo_conocimiento_libre.md)
-  * [¿Conocimiento Libre significa Conocimiento Gratuito?](Parte_1-Introduccion_Software_Libre/Parte_1.2.2-¿Conocimiento_libre_significa_conocimiento_gratuito?.md)
+  * [¿Conocimiento Libre significa Conocimiento Gratuito?](Parte_1-Introduccion_Software_Libre/Parte_1.2.2-Conocimiento_libre_vs_conocimiento_gratuito.md)
   * [Áreas deseables de Conocimiento Libre](Parte_1-Introduccion_Software_Libre/Parte_1.2.3-Otras_areas_deseables_conocimiento_libre.md) 
-* [¿Qué es Software Libre?](Parte_1-Introduccion_Software_Libre/Parte_1.3.0-¿Qué_es_Software_Libre?.md)
+* [¿Qué es Software Libre?](Parte_1-Introduccion_Software_Libre/Parte_1.3.0-Que_es_Software_Libre.md)
   * [Hitos Importantes](Parte_1-Introduccion_Software_Libre/Parte_1.3.1-Hitos_importantes.md)
 
 ## Parte 2. Distribuciones Libres: Vitalinux

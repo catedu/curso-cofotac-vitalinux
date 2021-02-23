@@ -13,6 +13,7 @@ Recuerda que puedes encontrar estas aplicaciones y otras muchas a través de la 
 Veamos algunos ejemplos de aplicaciones **disponibles**, por **categorías** y para finalizar veremos **ejemplos de aplicaciones** que se usan en Aragón con la experienca de los propios usuarios, ya que nos puede dar una aproximación mejor de dichas aplicaciones, o indicaciones de las que usan en otras comunidades autónomas.
 
 ![100Free](../img/parte3/100-free.png "100Free")
+  
   *Alpha Stock Images - http://alphastockimages.com/.  Creative Commons 3 - CC BY-SA 3.0*
 
 ## 1. Aplicaciones disponibles
@@ -118,8 +119,10 @@ Los libros digitales suelen llevar licencias más cerradas de uso, pero desde Vi
 * [WireShark](https://www.wireshark.org). Para analizar el tráfico de red. [Instalar](apt://wireshark)
 
 ## 3. Experiencia con aplicaciones
+
 ![Experience](../img/parte3/experience.png "Experience")
-*Unsplash bank images*
+
+  *Unsplash bank images*
 
 En la [siguiente página de la wiki](https://wiki.vitalinux.educa.aragon.es/index.php/Vitalinux/Ejemplo_uso_aplicaciones), podemos encontrar una tabla con Aplicaciones, clasificada por **Nivel Educativo** y **Posible Área de aplicación**, con una **descripción y experiencia** directa del propio profesor/coordinador.
 
@@ -132,4 +135,5 @@ Hoy día  gracias a buscadores podemos encontrar alternativas al software privad
 * [Alternativeto](http://alternativeto.net/): buscador de alternativas al software privativo. Además podemos ver si es software libre o no, o qué licencia tiene.
 * [Jueduland](http://jueduco.blogspot.com.es/2013/06/chuletario-de-aplicaciones-educativas.html): muy buena, por categorías.
 * [Linux Adictos](http://www.linuxadictos.com/alternativas-linux-programas-windows.html): alternativas de uso cotidiano; con capturas de pantalla y breve explicación de las aplicaciones.
-* [Desde Linux](http://blog.desdelinux.net/listado-de-alternativas-libres-de-los-programas-de-windows): buena, con opciones y con link a los sites propios de la aplicación.
+* [Desde Linux](https://blog.desdelinux.net/listado-aplicaciones-gnu-linux/). Recopilación de aplicaciones del 2018/2019 de éste blog de noticias.
+  * [Desde Linux Comparativa](http://blog.desdelinux.net/listado-de-alternativas-libres-de-los-programas-de-windows): Listado de comparativa con aplicaciones conocidas de otro sistema operativo
