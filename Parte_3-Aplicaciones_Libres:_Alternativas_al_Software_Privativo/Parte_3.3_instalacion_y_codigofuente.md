@@ -12,6 +12,8 @@ Una vez que sabemos qué aplicación queremos usar/probar, vamos a instalarla. P
 4. Manualmente mediante un paquete deb. Forma gráfica
 5. Línea de comandos. Instalación de aplicaciones de un repo o directamente descagando el deb
 
+En la mayoría de los casos, deberemos hacer uso de una cuenta con permisos de administración para poder instalar/desinstalar software. En el caso de Vitalinux por ejemplo, la cuenta de profesor y dga tienen por defecto permisos de administración.
+
 ### Centro de Software
 
 **Vitalinux** es una distribución basada en la versión ligera de Ubuntu, la cual dispone de su propio '''Centro de Software''' que permite al usuario instalar y desinstalar aplicaciones de una forma muy gráfica y convencional, al estilo que estamos acostumbrados de un Store actual del móvil, pudiendo filtrar la búsqueda de una manera categorizada: '''Educación, Ofimática, Internet''', etc.
@@ -76,7 +78,7 @@ Veamos un ejemplo de cada:
 
 ![Instalando Software](../img/parte3/installdeb.png "Instalando Software")
 
-2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que viene firmado y estable a la versión de distribución que tenemos (por ejemplo, las posibles librerías que necesite estarán en la versión esperada)
+2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que viene firmado y estable a la versión de distribución que tenemos (por ejemplo, las posibles librerías que necesite estarán en la versión esperada).
 
 
 #### FICHERO APPIMAGE**

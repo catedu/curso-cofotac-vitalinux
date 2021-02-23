@@ -2,7 +2,7 @@
 <div style="padding: 30px; text-align: center; width: 100%; border-radius: 5px; background-color: khaki;">
 <img src="img/generales/vx-vitalinux.png" alt="Vitalinux" width="120" style="margin-right: 40px;">
 <img src="img/generales/vx-logo-gnu-linux.png" alt="GNU" width="180" style="margin-right: 40px;">
-<img src="img/generales/vx-migasfree.png" alt="Vitalinux" width="120" style="margin-right: 20px;">
+<img src="img/generales/vx-migasfree.png" alt="Migasfree" width="120">
 </div>
 
 # Introducción
@@ -37,3 +37,5 @@ Otras gráficas interesantes pueden ser las que nos informe del número de equip
 {% notificacion_important title='¡Migasfree es la clave!' %}
 Es muy importante señalar/recalcar que el éxito del <b>Programa de Software Libre Vitalinux</b> es <b>Migasfree</b>, ya que sin este servicio de <b><em>gestión masiva de equipos de manera remota y desatendida</em>, Vitalinux</b> no sería más que otro sistema operativo más. Más adelante veremos someramente todas las bondades de <b>Migasfree</b>.
 {% endnotificacion_important %}
+
+
