@@ -4,7 +4,7 @@ Podríamos copiar aquí la [definición de **Conocimiento Libre** de la wikipedi
 
 La mejor forma de comprender que es el conocimiento libre y sus beneficios es compararlo con el conocimiento cerrado o privativo. Para ello, a modo de ejemplo, se muestran dos productos aparentemente iguales pero que difieren en la información que aportan: **abierta** y **cerrada**.
 
-![Comparación entre conocimiento abierto y cerrado](img/parte1/vx-ejemplo-cocina/vx-comparacion-abierto-cerrado.png)
+![Comparación entre conocimiento abierto y cerrado](../img/parte1/vx-ejemplo-cocina/vx-comparacion-abierto-cerrado.png)
 
 **¿Cúal de los dos productos preferirías comprar? ¿Elegirías un producto sin saber los ingredientes que lo componen y procedimiento que se ha seguido para su elaboración?** En el mundo de software ocurre algo similar, hay productos software cuyos desarrolladores/creadores proporcionan una completa información de como ha sido construido el software y otros que no.  Paradójicamente, el software cerrado está mucho más extendido que el software abierto en los equipos informáticos de sobremesa y portátiles, propiciado por una potente maraña de intereses económicos, financieros y monetarios por parte de unas pocas compañías informáticas con hegemonía mundial que están interesadas en que ese panorama siga durante mucho tiempo así.
 El conocimiento libre permite que cualquiera tenga el conocimiento suficiente para poder reproducir y distribuir cualquier tipo de producto que sea libre, garantizando que los beneficios sean más contenidos y repartidos, impidiendo que sean sólo unas pocas las compañías que tengan su hegemonía.  Esta claro que eso no interesa a aquellas empresas que ansien acaparar muchísimos beneficios.

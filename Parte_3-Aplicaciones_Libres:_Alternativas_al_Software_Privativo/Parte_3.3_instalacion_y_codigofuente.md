@@ -76,11 +76,14 @@ Veamos un ejemplo de cada:
 
 ![Instalando Software](../img/parte3/installdeb.png "Instalando Software")
 
-2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que se mantiene actualizado (y sobre todo, que viene firmado)
+2. Una vez descargado, podemos instalarlo simplemente haciendo doble click sobre el paquete. Al instalarlo nos puede saltar una advertencia indicando que dicho paquete ya está en un "canal de distribución" (como es el caso), es decir, que se encuentra disponible en los repositorios...por si queremos instalarlo de ésta forma y asegurar que viene firmado y estable a la versión de distribución que tenemos (por ejemplo, las posibles librerías que necesite estarán en la versión esperada)
 
 
 #### FICHERO APPIMAGE**
 
+En el caso de ficheros AppImage, procederemos a descargarlo igualmente. Ésta forma de distribución, no requiere de instalación para ejecutarse, pero:
+
+* No se mantedrá actualizado
 
 Hay otras tecnologías de distribuciónd e softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
 
