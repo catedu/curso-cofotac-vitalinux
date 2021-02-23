@@ -14,7 +14,7 @@ Una vez que sabemos qué aplicación queremos usar/probar, vamos a instalarla. P
 
 En la mayoría de los casos, deberemos hacer uso de una cuenta con permisos de administración para poder instalar/desinstalar software. En el caso de Vitalinux por ejemplo, la cuenta de profesor y dga tienen por defecto permisos de administración.
 
-### Centro de Software
+### 1. Centro de Software
 
 **Vitalinux** es una distribución basada en la versión ligera de Ubuntu, la cual dispone de su propio '''Centro de Software''' que permite al usuario instalar y desinstalar aplicaciones de una forma muy gráfica y convencional, al estilo que estamos acostumbrados de un Store actual del móvil, pudiendo filtrar la búsqueda de una manera categorizada: '''Educación, Ofimática, Internet''', etc.
 
@@ -29,7 +29,7 @@ Podemos entonces seleccionar la categoría, aplicación e instalar o incluso lan
 ![Centro de Software 2](../img/parte3/softwareapp3-1.png "Centro de Software - Categorías")
 ![Centro de Software 3](../img/parte3/softwareapp3-2.png "Centro de Software - Aplicación")
 
-### Synaptic
+### 2. Synaptic
 
 Una de las aplicaciones más completa (gráfica) y usada en el mundo Linux para la gestión del software es **Synaptic**.  Aunque su aspecto visual no es tan amigable como el de otras aplicaciones equivalentes que han ido surgiendo con los años, su eficiencia y robustez han hecho que sea una aplicación muy asentada y universalmente utilizada en muchas distribuciones Linux.
 
@@ -51,13 +51,13 @@ También es posible emplear el botón **Buscar** para encontrar los paquetes que
 
 En todos los casos, los cambios surtirán efecto una vez que hagamos clic sobre el botón de **Aplicar**.
 
-### Mediante migasfree
+### 3. Mediante migasfree
 
 Como ya se ha dicho en varias ocasiones, una caracterísitica que vamos a encontrar en **Vitalinux** y que le diferencia del resto de distribuciones Linux actuales, es que incorpora un **cliente Migasfree** gestionado de forma centralizada y personlaziado por cada centro educativo, a demanda y de formma dinámica.  En concreto, este cliente Migasfree garantiza que cada vez que arranca Vitalinux EDU DGA y tras iniciar sesión, se establece una comunicación con el servidor [Migasfree del programa de **Software Libre** de la DGA](http://migasfree.edcuca.aragon.es), y a través de dicha comunicación Vitalinux deja en manos de **Migasfree** la configuración del equipo en cuanto a personalización y software: Migasfree provocará en el equipo Vitalinux todo aquello que se le haya encomendado previamente por el propio centro, y en concreto qué aplicaciones deben instalarse (y si no lo están, lo hará de forma automática), y qué aplicaciones se tienen que desinstalar (si las encuentra instaladas). Además realiza otras acciones (como configurar el escritorio, navegadores, limpieza, gestión de usuarios....). 
 
 ¿Y cómo sabe qué tiene  que hacer en cada equipo, si son muchos centros y cada uno usa un software diferente? A grandes rasgos, **Migasfree** tiene identificado al equipo Vitalinux en base a un identificador unívoco llamado CID y a un conjunto de **Etiquetas Migasfree** que se le pueden asignar...en base a dicha configuración se personaliza, entrando en el programa de Asesoramiento del Proyecto Vitalinux.
 
-### Forma manual
+### 4. Forma manual
 
 De forma manual, dependerá de como nos faciliten el software:
 
@@ -65,17 +65,17 @@ De forma manual, dependerá de como nos faciliten el software:
   * En éste caso po 
 * Es una aplicación que tiene todo los binarios y librerías ya compilados y empaquetados, de forma que se puede lanzar directamente. En éste caso, solo debemos marcarlos para ejectuar y lanzarlo. Es lo que se conoce comunmente como software portable. El más común actualmente es en formato **AppImage**
 
-***Importante: Si optamos por la fórmula manual, debemos ser cuidadosos y saber de dónde estamos descagando el software para garantizar la seguridad e integridad de nuestro equipo y sobre todo, respetar las licencias de uso para respetar la legalidad del uso de la misma***
+> Si optamos por la fórmula manual, debemos ser cuidadosos y saber de dónde estamos descagando el software para garantizar la seguridad e integridad de nuestro equipo y sobre todo, respetar las licencias de uso para respetar la legalidad del uso de la misma
 
 Veamos un ejemplo de cada:
 
-#### Paquetes deb
+#### 4.1 Paquetes deb
 
 ![Descarga Software](../img/parte3/downloaddeb.png "Descargando Software")
 
 1. Buscamos el software a instalar. Encontramos el fichero a descargar. El nombre del archivo (nootka_1.7.3-beta3_amd64.deb) nos está indicando la versión (1.7.3) y en éste caso la arquitectura (64 bits). Deberemos descargar éste si nuestra arquitectura del sistema operativo es 64 bits (lo mas común a día de hoy) o buscar el de 32 (en éste caso no hay posibilidad). También podemos encontrar el final con un all en lugar de amd64, lo que indica que sirve para cualquier arquitectura
 
-***Importante: Observar que el software tiene versiones para múltiples arquitecturas...como debe ser :-)***
+> Observar que el software tiene versiones para múltiples arquitecturas...como debe ser :-)
 
 ![Instalando Software](../img/parte3/installdeb.png "Instalando Software")
 
@@ -83,7 +83,7 @@ Veamos un ejemplo de cada:
 
 Es posible también encontrar url's en páginas web que directamente apuntan al paquete deb mediante un protocolo para instalar, siempre que sigamos el link desde un Linux. Lo podremos probar en la [siguiente parte](./Parte_3.4_aplicaciones.md).
 
-#### Ficheros AppImage
+#### 4.2 Ficheros AppImage
 
 En el caso de ficheros AppImage, procederemos a descargarlo igualmente. En éste ejemplo, el nombre sería nootka-1.7.3-beta3-b3917-x86_64.AppImage, indicando que es para una arquitectura de 64 bits
 
@@ -101,11 +101,11 @@ Es importante que demos **permisos de ejecución** al fichero descargado para po
 
 ![AppImage en vx](../img/parte3/appimage_vx.png "Lanzando AppImage en Vitalinux")
 
-***Importante: En vitalinux se ha faclitado su ejecución, de forma que no es necesario dar permisos de ejecución***
+> Importante: En vitalinux se ha faclitado su ejecución, de forma que no es necesario dar permisos de ejecución
 
 Hay otras tecnologías de distribución de softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
 
-### Línea de comandos
+### 5. Línea de comandos
 
 Mediante la línea de comandos, podemos instalar software, desinstalar, comprobar, buscar...usando los repositorios que tenemos configurados.
 Antes ya hemos visto algo con obs-studio. Veamos un ejemplo mas completo de acciones que puedes hacer
