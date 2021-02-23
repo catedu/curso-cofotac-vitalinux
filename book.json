@@ -1,19 +1,26 @@
 {
   "plugins": [
-    "youtube",
-    "accordion",
     "styled-blockquotes",
     "localized-footer",
     "edit-link",
     "githubcontributors",
-    "ga"
+    "ga",
+    "youtube",
+    "accordion",
+    "image-captions",
+    "panel",
+    "notificaciones",
+    "include",
+    "coolimages",
+    "build"
   ],
   "language": "es",
   "variables": {
-    "title": "__________",
+    "vitalinux": "<span style='color: darkblue; font-weight: 600'; font-size: 120%;>Vitalinux</span>",
+    "title": "Software Libre: Vitalinux",
     "authors": [
-      "_____________",
-      "________________"
+      "Arturo Martín Romero",
+      "Ignacio Sancho Morte"
     ],
     "collaborators": [
       {
@@ -23,17 +30,20 @@
     ]
   },
   "pluginsConfig": {
+    "image-captions": {
+      "caption": "image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+    },
     "localized-footer": {
       "hline": true,
       "filename": "./FOOTER.md"
     },
     "edit-link": {
-      "base": "https://github.com/catedu/<nombre-del-repo>/edit/master",
+      "base": "https://github.com/catedu/curso-cofotac-vitalinux/edit/master",
       "label": "Edita esta página"
     },
     "githubcontributors": {
       "githubOwner": "catedu",
-      "githubRepository": "<nombre-del-repo>"
+      "githubRepository": "curso-cofotac-vitalinux"
     },
     "ga": {
       "token": "UA-135691041-2"
