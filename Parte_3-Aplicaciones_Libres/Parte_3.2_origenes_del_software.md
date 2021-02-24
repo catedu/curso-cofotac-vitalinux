@@ -27,11 +27,13 @@ Por defecto, en Vitalinux están configurados los siguentes repositorios
 * Repositorios de **aplicaciones comunes**, que no vienen de forma oficial en Ubuntu: Google Chrome, openjdk
 * Repositorio **propio de migasfree**. En éste tenemos disponibles muchas **aplicaciones propias del proyecto** para personalizar la distribución, así como **aplicaiones de terceros** que dejamos disponibles de forma actualizada para no tener que añadir repositorios de forma manual. Por ejemplo: obs-studio, scratch, geogebra... y muchas más que veremos en capitulos posteiores.
 
-\* *- Los repositorios de Ubuntu están mirroreados ("congelados") en un servidor del proyecto, para controlar las actualizaciones periódicas y así asegurar las actualizaciones de forma controlada en unos periodos concretos*
+\* *- Los repositorios de Ubuntu están ("congelados") en un servidor del proyecto, para controlar así las actualizaciones periódicas y asegurar el proceso de forma controlada, limitándolo a unos periodos concretos de actualización*
 
 Podemos ver la lista de los repositorios configurados en un vitalinux si ejectuamos **Software y actualizaciones**.
 ![Repositorios Vitalinux](../img/parte3/repositorios_vxcliente.png "Repositorios de software en Vitalinux")
-Podemos observar los repositorios indicados, *NO es recomendable eliminar dichos repositorios para preservar la integridad del sistema. De hecho en Vitalinux se recrean en cada arranque por si acaso*. También podemod añadir un volumen (repositorio local en base a un CD, en lugar de la nube) o un repositorio (Añadir...), pero recomendamos lo siguiente
+Podemos observar los repositorios comentados. 
+*NO es recomendable eliminar dichos repositorios para preservar la integridad del sistema. De hecho en Vitalinux se recrean en cada actualización por seguridad*.
+También podemod añadir un volumen (repositorio local en base a un CD, en lugar de la nube) o un repositorio (Añadir...), pero recomendamos lo siguiente.
 
 ## Como añadir nuevos respositorios
 

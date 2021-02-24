@@ -66,7 +66,8 @@ Como ya se ha dicho en varias ocasiones, una caracterísitica que vamos a encont
   * Gestión de usuarios
 
 En definitiva, **cualquier aspecto que se pueda configurar vía software, se puede programar y automatizar para todos (o parte) de los eqiupos del centro**
-¿Y cómo sabe qué tiene  que hacer en cada equipo, si son muchos centros y cada uno usa un software diferente? A grandes rasgos, **Migasfree** tiene identificado al equipo Vitalinux en base a un identificador unívoco llamado CID y a un conjunto de **Etiquetas Migasfree** que se le pueden asignar...en base a dicha configuración se personaliza, entrando en el programa de Asesoramiento del Proyecto Vitalinux.
+
+¿Y cómo sabe qué tiene  que hacer en cada equipo, si son muchos centros y cada uno usa un software diferente? A grandes rasgos, **Migasfree** tiene identificado al equipo Vitalinux en base a un identificador unívoco llamado **CID** y a un conjunto de **Etiquetas Migasfree** que se le pueden asignar. Cada centro puede personalizar así sus sistemas, y recibe la asesoría correspondiente entrando en el **programa de Asesoramiento del Proyecto Vitalinux**.
 
 ### 4. Forma manual
 
@@ -112,7 +113,7 @@ Es importante que demos **permisos de ejecución** al fichero descargado para po
 
 ![AppImage en vx](../img/parte3/appimage_vx.png "Lanzando AppImage en Vitalinux")
 
-> Importante: En vitalinux se ha faclitado su ejecución, de forma que no es necesario dar permisos de ejecución
+> En vitalinux se ha faclitado su ejecución, de forma que no es necesario dar permisos de ejecución
 
 Hay otras tecnologías de distribución de softare como pueden ser Snap y Flatpak, que se están abriendo camino. Puedes [consultar más información aquí por ejemplo sobre snap aquí](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)
 
@@ -155,7 +156,7 @@ sudo apt-get remove --purge nombre-del-paquete
 
 Para finalizar éste apartado, debemos destacar un aspecto importante del software libre: es **código abierto**, y por tanto podemos consultar su código fuente, modificarlo...
 
-***Importante: Recordar que OpenSource no siempre es software libre. Podemos tener programas de código abierto (opensource) con licencias restrictivas de uso.***
+> Recordar que OpenSource no siempre es software libre. Podemos tener programas de código abierto (opensource) con licencias restrictivas de uso.
 
 Podemos descargar el código fuente usando el siguiente comando, siempre que **tengamos en los repos** marcado que queremos tener disponible además del software (deb) el código fuente (**deb-src**)
 

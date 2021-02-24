@@ -4,9 +4,9 @@ En ésta última parte vamos a descubrir algunas aplicaciones libres. En Vitalin
 
 El ecosistema de aplicaciones disponibles puede llegar a ser abrumador. Descubre en los siguiente enlaces algunos ejemplos:
 
-* [Alternativeto](https://alternativeto.net/platform/linux/)
-* [Blog desde Linux](https://blog.desdelinux.net/impresionante-lista-de-aplicaciones-y-herramientas-para-ubuntu-linux/)
 * [Linux Apps específicas para educación](https://www.linux-apps.com/browse/cat/544/order/latest/) ordenadas por fecha de publicación
+* [Blog desde Linux](https://blog.desdelinux.net/impresionante-lista-de-aplicaciones-y-herramientas-para-ubuntu-linux/)
+* [Alternativeto](https://alternativeto.net/platform/linux/)
 
 Recuerda que puedes encontrar estas aplicaciones y otras muchas a través de la herramienta de gestión de paquetes Synaptic.
 
@@ -28,7 +28,7 @@ Como Vitalinux se basa en Ubuntu, las **aplicaciones disponibles** para el siste
 * Drivers y aplicaciones de las **PDI's** de forma cómoda para el centro
 * **Aplicaciones educativas** o de terceros que no está paquetizadas por defecto para Ubuntu, pero que ahora lo están de forma sencilla...
 
-Importante: En **Vitalinux** puedes encontrar aplicaciones que empiezan por vx-dga-l-xxxx. Éstas son o bien aplicacoines que ha desarrollado el equipo de soporte, o bien aplicaciones de terceros que no venían disponibles para la versión de Ubuntu de base y que se han "repaquetizado". Hay varios ejemplos: musescore, qcad, arasuite, aplicaciones de editoriales...
+Importante: En **Vitalinux** puedes encontrar aplicaciones que empiezan por vx-dga-l-xxxx. Éstas son o bien aplicaciones que ha desarrollado el equipo de soporte, o bien aplicaciones de terceros que no venían disponibles para la versión de Ubuntu de base y que se han "repaquetizado". Hay varios ejemplos: musescore, qcad, arasuite, aplicaciones de editoriales...
 
 ## 2. Aplicaciones por categorías
 
