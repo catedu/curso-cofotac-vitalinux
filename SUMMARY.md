@@ -22,12 +22,12 @@
 * [Como probar Vitalinux](Parte_2-Distribuciones_Libres:_Vitalinux/Parte_2.2.4-Como_probar_vitalinux.md)
   * [Instalación mediante Virtualbox](Parte_2-Distribuciones_Libres:_Vitalinux/Parte_2.2.5-Instalacion_vitalinux_en_virtualbox.md)
 
-## Parte 3. Aplicaciones Libres: Alternativas al Software Privativo
+## Parte 3. Aplicaciones Libres
 
-* [Introducción a las Aplicaciones Libres](Parte_3-Aplicaciones_Libres:_Alternativas_al_Software_Privativo/Parte_3.1_introduccion.md)
-* [De dónde viene el Software](Parte_3-Aplicaciones_Libres:_Alternativas_al_Software_Privativo/Parte_3.2_origenes_del_software.md)
-* [Cómo instalar software y ver sus fuentes](Parte_3-Aplicaciones_Libres:_Alternativas_al_Software_Privativo/Parte_3.3_instalacion_y_codigofuente.md)
-* [Aplicaciones comunes. Breve Guía](Parte_3-Aplicaciones_Libres:_Alternativas_al_Software_Privativo/Parte_3.4_aplicaciones.md)
+* [Introducción a las Aplicaciones Libres](Parte_3-Aplicaciones_Libres/Parte_3.1_introduccion.md)
+* [De dónde viene el Software](Parte_3-Aplicaciones_Libres/Parte_3.2_origenes_del_software.md)
+* [Cómo instalar software y ver sus fuentes](Parte_3-Aplicaciones_Libres/Parte_3.3_instalacion_y_codigofuente.md)
+* [Aplicaciones comunes. Breve Guía](Parte_3-Aplicaciones_Libres/Parte_3.4_aplicaciones.md)
 
 ---
 
