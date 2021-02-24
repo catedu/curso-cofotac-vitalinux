@@ -20,7 +20,7 @@ En el año 2014 la **Diputación General de Aragón *(DGA)*** inicia en modo pil
 <li class='fragment'><em>Facilitar labores de <a>Gesti&oacute;n de Software</a> gracias a <a>Migasfree</a></em></li>
 </ol>
 
-Como resultado de esa iniciativa surge el sistema operativo <span style='color: darkblue; font-weight: 600'; font-size: 120%;><tt>Vitalinux</tt></span>, basado por completo en <b>código abierto</b>, con el cual podremos familiarizarnos a través del siguiente curso (<a href="https://catedu.github.io/curso-vitalinux/">URL del eBook</a>)
+Como resultado de esa iniciativa surge el sistema operativo {{book.vitalinux}}, basado por completo en <b>código abierto</b>, con el cual podremos familiarizarnos a través del siguiente curso (<a href="https://catedu.github.io/curso-vitalinux/">URL del eBook</a>)
 
 Actualmente {{book.vitalinux}} se encuentra en su versión 2.0 con **5779** instalaciones realizadas, y con **11898** instalaciones de su versión anterior 1.0 (***dato extraidos de migasfree.educa.aragon.es el 22 de febrero del 2021***), y oficialmente es usado en más de 100 centros públicos de la Comunidad Autónoma de Aragón (***centros de Educación Infantil y Primaria, centros de Enseñanza Secundaria Obligatoria, Colegios Rurales Agrupados y Centros Públicos de Educación de Personas Adultas***): <a href="https://wiki.vitalinux.educa.aragon.es/index.php?title=P%C3%A1gina_principal/Centros_participantes">Mapa Oficial Centros Vitalinux</a>
 

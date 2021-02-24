@@ -49,6 +49,7 @@ Puedes clickar en el vínculo de **instalar** y te instalará la aplicación, si
 ### Vídeo y multimedia
 
 * [Openshot](https://www.openshot.org/). Editor de videos en su versión más reciente. Multiplataforma (Linux, Windows y Macintosh). [Instalar](apt://openshot)
+* [VLC](https://www.videolan.org). Reproductor de videos. [Instalar](apt://vlc)
 * [Shotcut](https://www.shotcut.org/). Editor de video con algo más de potencia y posibilidades que Openshot. Multiplataforma. [Instalar](apt://vx-dga-l-shotcut)
 * [Open Broadcaster Sotware](https://obsproject.com/). Creación de vídeos y streaming. [Instalar](apt://obs-studio)
 * [Handbrake](https://handbrake.fr/). Para ripear DVDs y convertir entre formatos de vídeo. [Instalar](apt://handbrake)
@@ -126,7 +127,7 @@ Los libros digitales suelen llevar licencias más cerradas de uso, pero desde Vi
 
 En la [siguiente página de la wiki](https://wiki.vitalinux.educa.aragon.es/index.php/Vitalinux/Ejemplo_uso_aplicaciones), podemos encontrar una tabla con Aplicaciones, clasificada por **Nivel Educativo** y **Posible Área de aplicación**, con una **descripción y experiencia** directa del propio profesor/coordinador.
 
-Por otro lado, también podemos encontrar un listado categorizado de aplicacione educativas recomendadas en las Comunidad de Madrid para su [distribución MAX](https://www.educa2.madrid.org/web/max/-aplicaciones1)
+Por otro lado, también podemos encontrar un listado categorizado de aplicacione educativas recomendadas en las Comunidad de Madrid para su [distribución MAX](https://www.educa2.madrid.org/web/max/-aplicaciones1).
 
 ## 4. Equivalencias con aplicaciones conocidas
 
@@ -136,4 +137,4 @@ Hoy día  gracias a buscadores podemos encontrar alternativas al software privad
 * [Jueduland](http://jueduco.blogspot.com.es/2013/06/chuletario-de-aplicaciones-educativas.html): muy buena, por categorías.
 * [Linux Adictos](http://www.linuxadictos.com/alternativas-linux-programas-windows.html): alternativas de uso cotidiano; con capturas de pantalla y breve explicación de las aplicaciones.
 * [Desde Linux](https://blog.desdelinux.net/listado-aplicaciones-gnu-linux/). Recopilación de aplicaciones del 2018/2019 de éste blog de noticias.
-  * [Desde Linux Comparativa](http://blog.desdelinux.net/listado-de-alternativas-libres-de-los-programas-de-windows): Listado de comparativa con aplicaciones conocidas de otro sistema operativo
+  * [Desde Linux Comparativa](http://blog.desdelinux.net/listado-de-alternativas-libres-de-los-programas-de-windows): Listado de comparativa con aplicaciones conocidas de otro sistema operativo.

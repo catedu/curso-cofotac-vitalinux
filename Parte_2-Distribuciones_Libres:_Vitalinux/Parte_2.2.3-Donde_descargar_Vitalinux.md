@@ -51,7 +51,7 @@ Así pues, si aplico el algoritmo (<i>MD5 en éste caso</i>) al fichero **\*.iso
 
 -  Si usamos una **distribución GNU/Linux**, puedes hacer la comprobación mediante el programa gráfico **gtkhash**, o directamente desde una terminal haciendo uso del ejecutable llamado **md5sum**.
 
-<img src="../img/gtkhash-check_md5.png" width="600">
+<img src="../img/parte2/gtkhash-check_md5.png" width="600">
 
 <ol>
 <li>Mediante <b>gtkhash</b>.  Instala y lanza <b>gtkhash</b>.  Una vez abierto el <b>gtkhash</b> selecciona el archivo (<i>p.e. *.iso</i>) del cual quieres comprobar su integridad y pincha en <b>calcular Hash</b>, habiendo pegado en el campo <b>comprobar</b> el código que debería obtenerse (<i>p.e. contenido del archivo *.iso.md5</i>).</li>
@@ -68,7 +68,6 @@ md5sum -c fichero_md5_descargado.md5
 -  Si usamos **Windows**, podemos descargarnos el programa [winmd5free](http://wiki.vitalinux.educa.aragon.es/isos/WinMD5.exe). Lo ejecutamos y seguiremos unos sencillos pasos:
     1.  Ejecuta el programa y busca el archivo del cual deseas comprobar su integridad (<i>p.e. *.iso</i>)
     1.  El programa comprobará el fichero y generará un **resumen** o **hash** resultante 
-    1.  Abre con un <b>Bloc de Notas</b> el fichero con extensión MD5 que descargaste que contiene el **resumen MD5** del archivo original (<i>p.e. *.iso.md5</i>).<br>
-    ![](img/Md5_1.png)
+    1.  Abre con un <b>Bloc de Notas</b> el fichero con extensión MD5 que descargaste que contiene el **resumen MD5** del archivo original (<i>p.e. *.iso.md5</i>).
     1.  Comprueba que el resumen generado por el programa a partir del archivo, y el resumen proporcionado por el archivo MD5 son iguales.  Si la firma coincide podemos concluir que está todo correcto, que el archivo descargado está integro.
-    <img src="../img/Md5_1.png" width="600">
+    <img src="../img/parte2/Md5_1.png" width="600">

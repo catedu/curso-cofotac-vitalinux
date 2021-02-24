@@ -53,8 +53,19 @@ En todos los casos, los cambios surtirán efecto una vez que hagamos clic sobre 
 
 ### 3. Mediante migasfree
 
-Como ya se ha dicho en varias ocasiones, una caracterísitica que vamos a encontrar en **Vitalinux** y que le diferencia del resto de distribuciones Linux actuales, es que incorpora un **cliente Migasfree** gestionado de forma centralizada y personlaziado por cada centro educativo, a demanda y de formma dinámica.  En concreto, este cliente Migasfree garantiza que cada vez que arranca Vitalinux EDU DGA y tras iniciar sesión, se establece una comunicación con el servidor [Migasfree del programa de **Software Libre** de la DGA](http://migasfree.edcuca.aragon.es), y a través de dicha comunicación Vitalinux deja en manos de **Migasfree** la configuración del equipo en cuanto a personalización y software: Migasfree provocará en el equipo Vitalinux todo aquello que se le haya encomendado previamente por el propio centro, y en concreto qué aplicaciones deben instalarse (y si no lo están, lo hará de forma automática), y qué aplicaciones se tienen que desinstalar (si las encuentra instaladas). Además realiza otras acciones (como configurar el escritorio, navegadores, limpieza, gestión de usuarios....). 
+Como ya se ha dicho en varias ocasiones, una caracterísitica que vamos a encontrar en **Vitalinux** y que le diferencia del resto de distribuciones Linux actuales, es que incorpora un **cliente Migasfree** gestionado de forma centralizada y personlaziado por cada centro educativo, a demanda y de formma dinámica.  En concreto, este cliente Migasfree garantiza que cada vez que arranca Vitalinux EDU DGA y tras iniciar sesión, se establece una comunicación con el servidor [Migasfree del programa de **Software Libre** de la DGA](http://migasfree.edcuca.aragon.es), y a través de dicha comunicación Vitalinux deja en manos de **Migasfree** la configuración del equipo en cuanto a personalización y software: Migasfree provocará en el equipo Vitalinux todo aquello que se le haya encomendado previamente por el propio centro, y en concreto:
 
+* Qué aplicaciones deben instalarse (y si no lo están, lo hará de forma automática)
+* Qué aplicaciones se tienen que desinstalar (si las encuentra instaladas).
+* Actualizar las aplicaciones instaladas y del sistema
+* Instalación de periféricos: Impresoras, PDIs, Webcams....
+* Además realiza otras acciones como:
+  * Configurar el entorno del escritorio
+  * Configurar las aplicaciones: navegadores, libreoffice, arduino...
+  * Limpieza del equipo
+  * Gestión de usuarios
+
+En definitiva, **cualquier aspecto que se pueda configurar vía software, se puede programar y automatizar para todos (o parte) de los eqiupos del centro**
 ¿Y cómo sabe qué tiene  que hacer en cada equipo, si son muchos centros y cada uno usa un software diferente? A grandes rasgos, **Migasfree** tiene identificado al equipo Vitalinux en base a un identificador unívoco llamado CID y a un conjunto de **Etiquetas Migasfree** que se le pueden asignar...en base a dicha configuración se personaliza, entrando en el programa de Asesoramiento del Proyecto Vitalinux.
 
 ### 4. Forma manual
@@ -162,7 +173,8 @@ Está fuera del alcance de éste curso manejar éstas herramientas de control de
 
 El **código fuente de los programas que se escriben para Vitalinux**, lo podemos encontrar en su [propio servidor de gitlab](https://gitlab.vitalinux.educa.aragon.es)
 
-Para terminar, puedes visualizar un vídeo sobre la [gestión del Software en Vitalinux](https://www.youtube.com/watch?v=8tBh8yz1FHY), donde se habla del uso de las diferentes herramientas descritas
+Para terminar, puedes visualizar un vídeo sobre la gestión del Software en Vitalinux, donde se habla del uso de las diferentes herramientas descritas
+{% youtube %}https://www.youtube.com/watch?v=8tBh8yz1FHY{% endyoutube %}
 
 Fuentes: 
 * https://itsfoss.com/remove-install-software-ubuntu/
