@@ -45,6 +45,7 @@ Puedes clickar en el vínculo de **instalar** y te instalará la aplicación, si
 * [Sweet Home-3D](http://sweethome3d.com/es/). Diseño de interiores 2D y 3D. [Instalar](apt://sweethome3d)
 * [SIR](http://marek629.github.io/SIR/) (Simple Image Resizer). Para cambiar el tamaño y otros parámetros de una imagen; admite procesado por lotes. [Instalar](apt://sir)
 * [Entangle](https://entangle-photo.org/). Para hacer fotografías con una cámara controlada desde el ordenador por USB, y previendo la imagen en la pantalla del ordenador. [Instalar](apt://entangle)
+* [RawTherape](https://rawtherapee.com/) RawTherape es un sistema de revelado digital para procesar imágenes RAW.
 
 ### Vídeo y multimedia
 
@@ -52,6 +53,7 @@ Puedes clickar en el vínculo de **instalar** y te instalará la aplicación, si
 * [VLC](https://www.videolan.org). Reproductor de videos. [Instalar](apt://vlc)
 * [Shotcut](https://www.shotcut.org/). Editor de video con algo más de potencia y posibilidades que Openshot. Multiplataforma. [Instalar](apt://vx-dga-l-shotcut)
 * [Open Broadcaster Sotware](https://obsproject.com/). Creación de vídeos y streaming. [Instalar](apt://obs-studio)
+* [LightWorks](https://www.lwks.com). Estación de trabajo multimedia. Completa y compleja herramienta de produción multimedia. Nada que envidia a otras grandes. No es software libre, pero tiene una versión libre...nada que envidiar a las grandes [Instalar](apt://lightworks)
 * [Handbrake](https://handbrake.fr/). Para ripear DVDs y convertir entre formatos de vídeo. [Instalar](apt://handbrake)
 * [Sozi](http://sozi.baierouge.fr/). Presentaciones tipo Prezi, ver [instrucciones](https://www.modelopresentacion.com/presentaciones-en-sozi). [Instalar](apt://sozi)
 * [Selene](https://www.atareao.es/software/sonido/selene-media-converter/). Conversor de audio y video. [Instalar](apt://selene)
@@ -62,7 +64,10 @@ Puedes clickar en el vínculo de **instalar** y te instalará la aplicación, si
 * [Musescore](https://musescore.com/). Editor de partituras. [Instalar](apt://musescore)
 * [Audacity](https://www.audacityteam.org/). Editor de sonido más usado en educación. [Instalar](apt://audacity)
 * [LMMS](https://lmms.io/). Let's may music, vamos a hacer música. Para componer música mezclando MIDI y audio. Multiplataforma. [Instalar](apt://lmms)
+* [Ardour](https://ardour.org/). Una estación de trabajo para trabajos de Audio. Grabación, Edición y Mezcla. Muy potente. [Instalar](apt://ardour)
 * [Mixxx](https://mixxx.org/). Mezclador de música para DJs, para amenizar las fiestas del cole/insti. Es multiplataforma. [Instalar](apt://mixxx)
+* [Lilypond](http://lilypond.org). Lilypond es un programa de edición de partituras que sigue la tradición del grabado clásico de música [Instalar](apt://lilypond)
+* [TuxGuitar](https://sourceforge.net/projects/tuxguitar) TuxGuitar es un editor y reproductor de tablaturas de guitarra multipista. Alternativa libre a herramientas como Guitar Pro. [Instalar](apt://tuxguitar)
 
 ### Astronomía
 
@@ -90,6 +95,7 @@ La [Robótica](https://wiki.vitalinux.educa.aragon.es/index.php/Rob%C3%B3tica_co
 * [Gdevelop](https://gdevelop-app.com/es/). Para crear juegos sin saber programar. [Instalar](apt://vx-dga-l-gdevelop)
 * [Netbeans](https://netbeans.org/). Programación en Java. [Instalar](apt://netbeans)
 * [Appinventor](http://appinventor.mit.edu/explore/). [Instalar](apt://appinventor2-setup)
+* [Notepadqq](https://notepadqq.com/s/) Editor de texto avanzado y rápido. Muy productivo para programación. [Instalar](apt://notepadqq) 
 
 ### Libros digitales
 
